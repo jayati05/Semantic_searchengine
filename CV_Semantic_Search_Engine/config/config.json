@@ -1,0 +1,21 @@
+{
+    "logging": {
+      "level": "INFO",
+      "file": "app.log"
+    },
+    "api": {
+      "source": "fastapi"
+    },
+    "fastapi": {
+      "host": "127.0.0.1",
+      "port": 8000,
+      "debug": false,
+      "health_check_endpoint": "/health"
+    },
+    "bentoml": {
+      "host": "127.0.0.1",
+      "port": 3000,
+      "health_check_endpoint": "/healthz",
+      "search_endpoint": "/search"
+    }
+}
