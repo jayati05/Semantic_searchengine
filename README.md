@@ -25,6 +25,9 @@ To unlock the full capabilities of the *Semantic Search System*, follow these st
 Use the navigation tabs above to explore each section.
 
 ---
+## Meet the Developers
+For more details use :
+  --mkdocs serve
 
 ## Meet the Developers
 
